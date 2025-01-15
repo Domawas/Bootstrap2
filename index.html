@@ -3,42 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="stilus.css">
+    <title>Nagy Dominik</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <h1>Webáruház</h1>
-    </header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+    <main class="container-fluid">
+        <header class="jumbotron text-left">
+            <h1>Webáruház</h1>
+        </header>
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Kezdőlap</a>
-                </li>
-                <li>
-                    <a class="nav-link active" aria-current="page" href="#">Galéria</a>
-                </li>
-                <li>
-                    <a class="nav-link active" aria-current="page" href="#">Mérettáblázat</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Galéria</a></li>
+                <li class="nav-item"><a class="nav-link" href="tablazat.html">Mérettáblázat</a></li>
             </ul>
+        </nav>
+
+        <div class="mt-3">
+            <div class="row">
+                <aside class="col-sm-3">
+                    <h5>Keresési feltételek:</h5>
+                    <form>
+                        <label for="customRange">Szűrés ár szerint:</label>
+                        <input type="range" class="custom-range" id="customRange">
+                    </form>
+                </aside>
+
+                <main class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <tbody>
+                                    <tr>
+                                        <td><h3>Retró Gamer férfi póló</h3></td>
+                                    </tr>
+                                </tbody>
+                                <img src="kepek/polo1.jpg" alt="Retró Gamer férfi póló" class="img-thumbnail">
+                                <div>
+                                    <span class="border">S</span>
+                                    <span class="border">M</span>
+                                    <span class="border">L</span>
+                                    <span class="border">XL</span>
+                                    <span class="border">XXL</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Retró Gamer férfi póló</h5>
+                                    <p class="card-text">Ár: 6990 Ft</p>
+                                    <button class="btn btn-success">Kosárba</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <tbody>
+                                    <tr>
+                                        <td><h3>Túléltem még egy meetinget</h3></td>
+                                    </tr>
+                                </tbody>
+                                <img src="kepek/polo2.jpg" alt="Túléltem még egy meetinget" class="img-thumbnail">
+                                <div>
+                                    <span class="border">S</span>
+                                    <span class="border">M</span>
+                                    <span class="border">L</span>
+                                    <span class="border">XL</span>
+                                    <span class="border">XXL</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Túléltem még egy meetinget</h5>
+                                    <p class="card-text">Ár: 6990 Ft</p>
+                                    <button class="btn btn-success">Kosárba</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <tbody>
+                                    <tr>
+                                        <td><h3>Az éveim múlásával</h3></td>
+                                    </tr>
+                                </tbody>
+                                <img src="kepek/polo3.jpg" alt="Az éveim múlásával" class="img-thumbnail">
+                                <div>
+                                    <span class="border">S</span>
+                                    <span class="border">M</span>
+                                    <span class="border">L</span>
+                                    <span class="border">XL</span>
+                                    <span class="border">XXL</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Az éveim múlásával</h5>
+                                    <p class="card-text">Ár: 6990 Ft</p>
+                                    <button class="btn btn-success">Kosárba</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <tbody>
+                                    <tr>
+                                        <td><h3>I hate ...</h3></td>
+                                    </tr>
+                                </tbody>
+                                <img src="kepek/polo4.jpg" alt="Az éveim múlásával" class="img-thumbnail">
+                                <div>
+                                    <span class="border">S</span>
+                                    <span class="border">M</span>
+                                    <span class="border">L</span>
+                                    <span class="border">XL</span>
+                                    <span class="border">XXL</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Az éveim múlásával</h5>
+                                    <p class="card-text">Ár: 6990 Ft</p>
+                                    <button class="btn btn-success">Kosárba</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <tbody>
+                                    <tr>
+                                        <td><h3>Képzeld el az élet ...</h3></td>
+                                    </tr>
+                                </tbody>
+                                <img src="kepek/polo5.jpg" alt="Az éveim múlásával" class="img-thumbnail">
+                                <div>
+                                    <span class="border">S</span>
+                                    <span class="border">M</span>
+                                    <span class="border">L</span>
+                                    <span class="border">XL</span>
+                                    <span class="border">XXL</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Az éveim múlásával</h5>
+                                    <p class="card-text">Ár: 6990 Ft</p>
+                                    <button class="btn btn-success">Kosárba</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+                <aside class="col-sm-3">
+                    <h4>Kapcsolódó cikkek</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+                        <li class="list-group-item">Modi aspernatur?</li>
+                        <li class="list-group-item">Consequuntur natus hic.</li>
+                    </ul>
+                </aside>
+            </div>
         </div>
-    </nav>
-    <main>
-        <aside>
-            <h3>Keresési feltételek</h3>
-            <h2>A termék neve:</h2>
-            <h2>Szűrés ár szerint:</h2>
-        </aside>
-        <article>
-
-        </article>
-        <aside>
-
-        </aside>
     </main>
-    <footer></footer>
+    <footer class="text-center mt-4">
+        <p>Nagy Dominik</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
